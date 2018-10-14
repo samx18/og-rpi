@@ -4,7 +4,7 @@
 [Create bootable disk](#Create-a-bootable-SD-Card-Image)
 [Finding the RPi on your network](#Finding-the-RPi-on-your-network)
 
-### Create a bootable SD Card Image
+###Create a bootable SD Card Image
 
 Create a bootable SD card image for raspberry pi
 
@@ -40,7 +40,7 @@ You can also use GUI programs like etcher to automatically format and copy the i
 
 https://etcher.io/
 
-### Finding the RPi on your network
+###Finding the RPi on your network
 
 If you want to quickly discover the IP address of your raspberry pi. This obviously will work only if you are on the same network as your rasppberry pi.
 
