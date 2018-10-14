@@ -1,6 +1,6 @@
 # The Open Guide to Raspberry Pi
 
-![]({{site.baseurl}}images/rpi-black.png)
+![alt tag](https://github.com/samx18/og-rpi/blob/master/images/rpi-black.png)
 
 ## Contents
 
