@@ -1,6 +1,7 @@
 # The Open Guide to Raspberry Pi
 
 ## How - To
+[Create bootable disk](#Create-a-bootable-SD-Card-Image)
 
 ### Create a bootable SD Card Image
 
