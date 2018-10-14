@@ -1,8 +1,8 @@
 # The Open Guide to Raspberry Pi
 
 ## How - To
-[Create bootable disk](#Create-a-bootable-SD-Card-Image)
-[Finding the RPi on your network](#Finding-the-RPi-on-your-network)
+[Create bootable disk](#create-a-bootable-sd-card-image)
+[Finding the RPi on your network](#finding-the-rpi-on-your-network)
 
 ###Create a bootable SD Card Image
 
