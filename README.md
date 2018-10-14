@@ -2,6 +2,7 @@
 
 ## How - To
 [Create bootable disk](#Create-a-bootable-SD-Card-Image)
+[Finding the RPi on your network](#Finding-the-RPi-on-your-network)
 
 ### Create a bootable SD Card Image
 
