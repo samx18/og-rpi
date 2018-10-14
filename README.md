@@ -1,5 +1,12 @@
 # The Open Guide to Raspberry Pi
 
+
+
+## Contents
+
+- How-To
+- Troubleshooting
+
 ## How - To
 
 - [Create bootable disk](#create-a-bootable-sd-card-image)
@@ -50,3 +57,5 @@ If you want to quickly discover the IP address of your raspberry pi. This obviou
 ? (192.168.1.89) at b8:27:eb:1a:bd:ca on en0 ifscope [ethernet]
 ? (192.168.1.92) at b8:27:eb:62:6e:4 on en0 ifscope [ethernet]
 ```
+
+## Troubleshooting
