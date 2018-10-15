@@ -1,28 +1,36 @@
-# The Open Guide to Raspberry Pi
+![alt tag](images/rpi-black.png)
 
-![alt tag](https://github.com/samx18/og-rpi/blob/master/images/rpi-black.png)
+# [The Open Guide to Raspberry Pi](#the-open-guide-to-raspberry)
+This open guide is still very much work in progress and is bascially a brain dump from my personal experiences with the raspberry pi.
+
 
 ## Contents
 
-- How-To
-- Troubleshooting
+- [Getting started](getting-started)
+  - [Create a raspberry pi bootable sd card](#create-a-raspberry-pi-bootable-sd-card)
+  - [Finding the RPi on your network](#finding-the-rpi-on-your-network)
+- [Troubleshooting](#troubleshooting)
+- [Projects](-projects)
 
-## How - To
+## Getting started
 
-- [Create bootable disk](#create-a-bootable-sd-card-image)
+- [Create a raspberry pi bootable sd card](#create-a-raspberry-pi-bootable-sd-card)
 - [Finding the RPi on your network](#finding-the-rpi-on-your-network)
 
-### Create a bootable SD Card Image
+###[Create a raspberry pi bootable sd card](#create-a-bootable-sd-card-image)
 
 Create a bootable SD card image for raspberry pi
 
-**Get the official image**
+**Get the raspbian image**
 
-Download from
+Download the offcial raspbian image from 
 
 https://www.raspberrypi.org/downloads/raspbian/
 
-Recommended method via torrents
+Due to limited bandwidth at the offical site it is recommended to use torrents rather than doing a direct download.
+
+A good cross platform torrent client is transmission https://transmissionbt.com/
+
 
 **Discover your card (Optional)**
 
@@ -59,3 +67,5 @@ If you want to quickly discover the IP address of your raspberry pi. This obviou
 ```
 
 ## Troubleshooting
+
+## Projects
