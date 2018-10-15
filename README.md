@@ -12,11 +12,6 @@ This open guide is still very much work in progress and is bascially a brain dum
 - [Troubleshooting](#troubleshooting)
 - [Projects](-projects)
 
-## Getting started
-
-- [Create a raspberry pi bootable sd card](#create-a-raspberry-pi-bootable-sd-card)
-- [Finding the RPi on your network](#finding-the-rpi-on-your-network)
-
 ### [Create a raspberry pi bootable sd card](#create-a-raspberry-pi-bootable-sd-card)
 
 Create a bootable SD card image for raspberry pi
