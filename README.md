@@ -1,12 +1,12 @@
 ![alt tag](images/rpi-black.png)
 
-# [The Open Guide to Raspberry Pi](#the-open-guide-to-raspberry)
+# [The Open Guide to Raspberry Pi](#the-open-guide-to-raspberry-pi)
 This open guide is still very much work in progress and is bascially a brain dump from my personal experiences with the raspberry pi.
 
 
 ## Contents
 
-- [Getting started](getting-started)
+- [Getting started](#getting-started)
   - [Create a raspberry pi bootable sd card](#create-a-raspberry-pi-bootable-sd-card)
   - [Finding the RPi on your network](#finding-the-rpi-on-your-network)
 - [Troubleshooting](#troubleshooting)
@@ -17,7 +17,7 @@ This open guide is still very much work in progress and is bascially a brain dum
 - [Create a raspberry pi bootable sd card](#create-a-raspberry-pi-bootable-sd-card)
 - [Finding the RPi on your network](#finding-the-rpi-on-your-network)
 
-###[Create a raspberry pi bootable sd card](#create-a-bootable-sd-card-image)
+### [Create a raspberry pi bootable sd card](#create-a-raspberry-pi-bootable-sd-card)
 
 Create a bootable SD card image for raspberry pi
 
