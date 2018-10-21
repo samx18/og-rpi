@@ -1,5 +1,7 @@
 ![alt tag](images/rpi-black.png)
 
+<div style="text-align:center"><img src ="images/rpi-black.png" /></div>
+
 # [The Open Guide to Raspberry Pi](#the-open-guide-to-raspberry-pi)
 This open guide is still very much work in progress and is bascially a brain dump from my personal experiences with the raspberry pi.
 
