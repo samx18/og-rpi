@@ -1,6 +1,5 @@
 ![alt tag](images/rpi-black.png)
 
-<div style="text-align:center"><img src ="images/rpi-black.png" /></div>
 
 # [The Open Guide to Raspberry Pi](#the-open-guide-to-raspberry-pi)
 This open guide is still very much work in progress and is bascially a brain dump from my personal experiences with the raspberry pi.
@@ -12,7 +11,8 @@ This open guide is still very much work in progress and is bascially a brain dum
   - [Create a raspberry pi bootable sd card](#create-a-raspberry-pi-bootable-sd-card)
   - [Finding the RPi on your network](#finding-the-rpi-on-your-network)
 - [Troubleshooting](#troubleshooting)
-- [Projects](-projects)
+- [Projects](#projects)
+	- [Pi Hole](#pi-hole)
 
 ### [Create a raspberry pi bootable sd card](#create-a-raspberry-pi-bootable-sd-card)
 
@@ -66,3 +66,84 @@ If you want to quickly discover the IP address of your raspberry pi. This obviou
 ## Troubleshooting
 
 ## Projects
+
+### Pi Hole
+
+**Installation**
+
+You can do a simple direct install  
+
+`curl -sSL https://install.pi-hole.net | bash`
+
+However always excercise caution when running bash scripts. If you prefer download, review and install locally
+
+`https://github.com/pi-hole/pi-hole#alternative-semi-automated-install-methods`
+
+Once installed, use the IP address of your pi where you installed pi hole as your DNS server in your router. 
+
+Note some ISPs may not allow the DNS address to be updated, in which case you may have to manually update DNS settings for each device
+
+**Web Console**
+
+The installer will optionally install a lighthttpd server and a web admin console. You can access. Make sure to note the password for the web console at the end of the installation.
+
+The console can be accessed via port 80
+
+`http://youripaddress/admin`
+
+**Password reset**
+
+In case you forget you admin password, you can simply reset it by
+
+`pihole -a -p`
+
+**Blocklists**
+
+Add Additional block lists
+
+You can get additional block lists from the fireblog site
+
+`https://firebog.net/`
+
+You may need to tweak the lists as you may need to unblock specific sites
+
+Lists can be added manually to the file
+
+`/etc/pihole/adlists.list`
+
+You can also add lists via the pihole admin console
+
+
+**Update block lists**
+
+`pihole -g`
+
+**PADD**
+
+Setup PADD
+
+Get the script
+
+`wget -N https://raw.githubusercontent.com/jpmck/PADD/master/padd.sh`
+
+Set permissions
+
+`sudo chmod +x padd.sh`
+
+Run manually
+
+`./padd.sh`
+
+Run automatically at startup
+
+```
+# Run PADD
+# If we’re on the PiTFT screen (ssh is xterm)
+if [ "$TERM" == "linux" ] ; then
+  while :
+  do
+    ./padd.sh
+    sleep 1
+  done
+fi
+```
