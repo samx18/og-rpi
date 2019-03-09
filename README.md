@@ -20,7 +20,7 @@ Create a bootable SD card image for raspberry pi
 
 **Get the raspbian image**
 
-Download the offcial raspbian image from 
+Download the official Raspbian image from
 
 https://www.raspberrypi.org/downloads/raspbian/
 
@@ -67,7 +67,7 @@ If you want to quickly discover the IP address of your raspberry pi. This obviou
 
 ## Projects
 
-### Pi Hole
+### [Pi Hole](#pi-hole)
 
 **Installation**
 
@@ -79,7 +79,7 @@ However always excercise caution when running bash scripts. If you prefer downlo
 
 `https://github.com/pi-hole/pi-hole#alternative-semi-automated-install-methods`
 
-Once installed, use the IP address of your pi where you installed pi hole as your DNS server in your router. 
+Once installed, use the IP address of your pi where you installed pi hole as your DNS server in your router.
 
 Note some ISPs may not allow the DNS address to be updated, in which case you may have to manually update DNS settings for each device
 
@@ -120,7 +120,7 @@ You can also add lists via the pihole admin console
 
 **PADD**
 
-Setup PADD
+PADD provides in-depth information about your Pi-hole. Setup PADD
 
 Get the script
 
